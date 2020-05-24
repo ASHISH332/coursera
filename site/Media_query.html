@@ -19,25 +19,28 @@ p {
   border: 1px solid black;
   background-color: red;
   width: 95%;
-  height: 150px;
+  height: 75%;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom:10px;
   padding-top: 30px;
+  padding-left: 10px;
   font-family:cursive;
   color: black;
 }
 
 #p2{
-  padding-left: 2px;
+  padding-left: 10px;
   padding-top: 2px;
-  padding-right:30px;
-  border: 1px solid yellow;
+  padding-right:20%;
+  border: 1px solid black;
   background-color: pink;
+
   width: 15%;
-  height: 30px;
-  color: green;
+  height: 25%;
+  color: black;
   float:right;
-  margin-right: 12px;
+  margin-right: 2.4%;
 }
 /* Simple Responsive Framework. */
 .row {
@@ -49,7 +52,8 @@ p {
 @media (min-width: 992px) {
    .col-lg-4{
     float: left;
-    border: 1px solid blue;/*-- to remove bordre line outside teh box */
+ /*   border: 3px solid black;*/
+    /*-- to remove bordre line outside teh box */
     width: 33.33333%; 
              } 
 } 
@@ -57,11 +61,14 @@ p {
 @media (min-width: 769px) and (max-width: 991px)  {
    .col-md-6{
     float: left;
-    border: 2px solid blue;/*-- to remove bordre line outside teh box */
+    /*border: 2px solid black;*/
+    /*-- to remove bordre line outside teh box */
     width: 50%;
               }
     .col{
+    	float: left;
     	width:100%;
+
     }
   }
 
@@ -69,7 +76,8 @@ p {
 @media (max-width: 768px)  {
    .col-sm-12{
     float: left;
-    border: 2px solid blue;/*-- to remove bordre line outside teh box */
+    /*border: 2px solid black;*/
+    /*-- to remove bordre line outside teh box */
     width: 100%;
               }
   }
@@ -84,8 +92,9 @@ p {
 
 <div class="row">
   <div class="col-lg-4 col-md-6 col-sm-12">
-    <p id="p2">chicken</p>
-  	<p id="p1">ITEM 1Borders and Colors: Each section should have a background color set to some color (of your choosing). Set the background color of each section title region to some unique color (of your choosing)
+    <p id="p2">chick</p>
+  	<p id="p1">Item 1 Wow this is cool
+  Borders and Colors: Each section should have a background color set to some color (of your choosing). Set the background color of each section title region to some unique color (of your choosing).
   	 </p>
 	</div>
   
